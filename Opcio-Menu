@@ -1,0 +1,50 @@
+#!/bin/bash
+Menu () {
+echo "----------------------------------------------"
+echo "Base de Dades de Pel.licules"
+echo "1. Llistats de pel.licules"
+echo "2. Ets un Expert en pel.licules?"
+echo "3. Altes, baixes i modificacions de la base de dades."
+echo "0. Sortir."
+echo "----------------------------------------------"
+}
+Menu
+
+read option
+while [ $option -ne 0 ]
+do
+	case $option in	
+		"1") 
+			echo "En desenvolupament"
+			sleep 3
+			clear
+			Menu
+			;;
+		"2")
+			echo "En desenvolupament"
+			sleep 3
+			clear
+			Menu
+			;;
+		"3")
+			echo "En desenvolupament"
+			sleep 3
+			clear
+			Menu
+			;;
+		"4")
+			echo "En desenvolupament"
+			sleep 3
+			clear
+			Menu
+			;;
+		*)
+			echo "Opcio no valida"
+			sleep 3
+			clear
+			Menu
+			;;
+
+	esac
+read option
+done	
