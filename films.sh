@@ -38,6 +38,9 @@ esac
 }
 
 MenuOpcio2() {
+escape=1
+while [ $escape -eq 1 ]
+do
 echo "--------------------------------------------------"
 echo "		2 - Cerca de pel.licula		  "
 echo "--------------------------------------------------"
@@ -46,6 +49,31 @@ echo "2. Cercar pel.licules fetes entre dos anys."
 echo "3. Cercar pel.licules on ha intervingut determinada persona."
 echo "--------------------------------------------------"
 
+read op2
+
+case $op2 in
+	"1")
+		echo "Introdueix text:"
+		read title
+		bash Tasca2-1.sh $1 $title
+		echo "Tornar al menu anterior?S/*"
+		read escape
+			;;
+	"2")
+		read -p "Introdueix any 1:" year1
+		read -p "Introdueix any2:" year2
+		bash Tasca2-2.sh $1 $year1 $year2
+		echo "Tornar al menu anterior?S/*"
+		read escape
+			;;
+	"3")
+		read -p "Introdueix una persona:" person
+		bash Tasca2-3.sh $1 "$person"
+		echo "Tornar al menu anterior?S/*"
+		read escape
+			;;
+esac
+done
 }
 Menu
 
@@ -57,10 +85,7 @@ do
 			MenuOpcio1 $1
 			;;
 		"2")
-			echo "En desenvolupament"
-			sleep 3
-			clear
-			Menu
+			MenuOpcio2 $1
 			;;
 		"3")
 			echo "En desenvolupament"
