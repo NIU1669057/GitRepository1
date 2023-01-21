@@ -25,13 +25,28 @@ case $op1 in
 	"1")
 		bash Tasca1-1.sh $1
 			;;
+	"2")
+		bash Tasca1-2.sh $1
+			;;
+	"3")
+		bash Tasca1-3.sh $1
+			;;
 	*)
-		echo "En desenvolupament"
+		echo "Opcio Incorrecta"
 			;;
 esac
 }
 
+MenuOpcio2() {
+echo "--------------------------------------------------"
+echo "		2 - Cerca de pel.licula		  "
+echo "--------------------------------------------------"
+echo "1. Cercar pel.licules per titol."
+echo "2. Cercar pel.licules fetes entre dos anys."
+echo "3. Cercar pel.licules on ha intervingut determinada persona."
+echo "--------------------------------------------------"
 
+}
 Menu
 
 read option

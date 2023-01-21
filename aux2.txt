@@ -1,0 +1,6 @@
+1982;92;Fast Times at Ridgemont High;Comedy;Penn, Sean;Cates, Phoebe;Heckerling, Amy;65;No;NicholasCage.png
+1967;114;Hang 'em High;Western;Eastwood, Clint;Stevens, Inger;Post, Ted;67;No;clintEastwood.png
+1991;113;High Heels;Comedy;Bosé, Miguel;Abril, Victoria;Almodóvar, Pedro;68;No;NicholasCage.png
+1973;105;High Plains Drifter;Western;Eastwood, Clint;Bloom, Verna;Eastwood, Clint;57;No;clintEastwood.png
+1989;;High Spirits;Comedy;O'Toole, Peter;Hannah, Daryl;Jordan, Neil;53;No;NicholasCage.png
+1986;110;Highlander;Science Fiction;Lambert, Christopher;Hart, Roxanne;Mulcahy, Russell;8;No;NicholasCage.png

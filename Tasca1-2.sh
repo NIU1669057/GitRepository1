@@ -1,7 +1,7 @@
 #!/bin/bash
 long=`cat $1 | wc -l`
 i=3
-sort -k3 -t";" $1 > aux1.txt
+sort -k1 -t";" $1 > aux1.txt
 while [ $i -le $long ]
 do
 titol=`cat aux1.txt | cut -d";" -f3 | head -$i | tail -1`
