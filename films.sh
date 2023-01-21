@@ -4,7 +4,8 @@ Menu () {
 echo "----------------------------------------------"
 echo "Base de Dades de Pel.licules"
 echo "1. Llistats de pel.licules"
-echo "2. Ets un Expert en pel.licules?"
+echo "2. Cerca de pel.licules"
+echo "3. Ets un Expert en pel.licules?"
 echo "3. Altes, baixes i modificacions de la base de dades."
 echo "0. Sortir."
 echo "----------------------------------------------"
@@ -75,6 +76,17 @@ case $op2 in
 esac
 done
 }
+
+MenuOpcio3(){
+echo "-------------------------------------"
+echo "	3 - Ets un expert en pel.licules?"
+echo "-------------------------------------"
+echo "1. De quin any es?"
+echo "2. Qui va Dirigir?"
+echo "3. De quin tema es?"
+echo "0. Tornar al menu anterior"
+}
+
 Menu
 
 read option
