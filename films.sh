@@ -76,6 +76,17 @@ case $op2 in
 esac
 done
 }
+
+MenuOpcio3(){
+echo "-------------------------------------"
+echo "	3 - Ets un expert en pel.licules?"
+echo "-------------------------------------"
+echo "1. De quin any es?"
+echo "2. Qui va Dirigir?"
+echo "3. De quin tema es?"
+echo "0. Tornar al menu anterior"
+}
+
 Menu
 
 read option
